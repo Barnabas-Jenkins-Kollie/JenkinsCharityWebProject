@@ -114,9 +114,10 @@ https://templatemo.com/tm-581-kind-heart-charity
                             aria-expanded="false">News</a>
 
                         <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                            <li><a class="dropdown-item" href="news.html">News Listing</a></li>
+                            <li><a class="dropdown-item" href="news.php
+                            ">News Listing</a></li>
 
-                            <li><a class="dropdown-item" href="news-detail.html">News Detail</a></li>
+                            <li><a class="dropdown-item" href="news-detail.php">News Detail</a></li>
                         </ul>
                     </li>
 
@@ -125,7 +126,7 @@ https://templatemo.com/tm-581-kind-heart-charity
                     </li>
 
                     <li class="nav-item ms-3">
-                        <a class="nav-link custom-btn custom-border-btn btn" href="donate.html">Donate</a>
+                        <a class="nav-link custom-btn custom-border-btn btn" href="donate.php">Donate</a>
                     </li>
                 </ul>
             </div>
@@ -204,7 +205,7 @@ https://templatemo.com/tm-581-kind-heart-charity
 
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                         <div class="featured-block d-flex justify-content-center align-items-center">
-                            <a href="donate.html" class="d-block">
+                            <a href="donate.php" class="d-block">
                                 <img src="images/icons/hands.png" class="featured-block-image img-fluid" alt="">
 
                                 <p class="featured-block-text">Become a <strong>volunteer</strong></p>
@@ -214,7 +215,7 @@ https://templatemo.com/tm-581-kind-heart-charity
 
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4">
                         <div class="featured-block d-flex justify-content-center align-items-center">
-                            <a href="donate.html" class="d-block">
+                            <a href="donate.php" class="d-block">
                                 <img src="images/icons/heart.png" class="featured-block-image img-fluid" alt="">
 
                                 <p class="featured-block-text"><strong>Caring</strong> Earth</p>
@@ -224,7 +225,7 @@ https://templatemo.com/tm-581-kind-heart-charity
 
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4">
                         <div class="featured-block d-flex justify-content-center align-items-center">
-                            <a href="donate.html" class="d-block">
+                            <a href="donate.php" class="d-block">
                                 <img src="images/icons/receive.png" class="featured-block-image img-fluid" alt="">
 
                                 <p class="featured-block-text">Make a <strong>Donation</strong></p>
@@ -234,7 +235,7 @@ https://templatemo.com/tm-581-kind-heart-charity
 
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                         <div class="featured-block d-flex justify-content-center align-items-center">
-                            <a href="donate.html" class="d-block">
+                            <a href="donate.php" class="d-block">
                                 <img src="images/icons/scholarship.png" class="featured-block-image img-fluid" alt="">
 
                                 <p class="featured-block-text"><strong>Scholarship</strong> Program</p>
