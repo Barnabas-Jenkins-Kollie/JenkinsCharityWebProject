@@ -15,4 +15,3 @@ try {
 } catch (Error $e) {
     print "The system is busy try again later";
 }
-?>

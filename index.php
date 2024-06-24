@@ -1,3 +1,6 @@
+<?php
+require_once "register_volunteers.php"
+    ?>
 <!doctype html>
 <html lang="en">
 
@@ -8,7 +11,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kind Heart Charity - Free Bootstrap 5.2.2 CSS Template</title>
+    <title>Kind Heart Charity</title>
 
     <!-- CSS FILES -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -16,13 +19,7 @@
     <link href="css/bootstrap-icons.css" rel="stylesheet">
 
     <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
-    <!--
-
-TemplateMo 581 Kind Heart Charity
-
-https://templatemo.com/tm-581-kind-heart-charity
-
--->
+    <script src="verify.js"></script>
 
 </head>
 
@@ -147,9 +144,9 @@ https://templatemo.com/tm-581-kind-heart-charity
                                         class="carousel-image img-fluid" alt="...">
 
                                     <div class="carousel-caption d-flex flex-column justify-content-end">
-                                        <h1>be a Kind Heart</h1>
+                                        <h3>Be a Kind Heart</h3>
 
-                                        <p>Professional charity theme based on Bootstrap 5.2.2</p>
+                                        <p>Professional charity theme based on Barnabas Jenkins envision</p>
                                     </div>
                                 </div>
 
@@ -262,8 +259,10 @@ https://templatemo.com/tm-581-kind-heart-charity
 
                             <h5 class="mb-3">Kind Heart Charity, Non-Profit Organization</h5>
 
-                            <p class="mb-0">This is a Bootstrap 5.2.2 CSS template for charity organization websites.
-                                You can feel free to use it. Please tell your friends about TemplateMo website. Thank
+                            <p class="mb-0">This is a Bootstrap 5.2.2 CSS template for charity organization
+                                websites.
+                                You can feel free to use it. Please tell your friends about TemplateMo website.
+                                Thank
                                 you.</p>
                         </div>
 
@@ -334,7 +333,8 @@ https://templatemo.com/tm-581-kind-heart-charity
 
                             <p class="text-muted mb-lg-4 mb-md-4">Founding Partner</p>
 
-                            <p>Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito Professional
+                            <p>Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito
+                                Professional
                                 charity theme based</p>
 
                             <p>Sed leo nisl, posuere at molestie ac, suscipit auctor mauris. Etiam quis metus</p>
@@ -395,7 +395,8 @@ https://templatemo.com/tm-581-kind-heart-charity
                                 <div class="custom-block-body">
                                     <h5 class="mb-3">Children Education</h5>
 
-                                    <p>Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito</p>
+                                    <p>Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito
+                                    </p>
 
                                     <div class="progress mt-4">
                                         <div class="progress-bar w-75" role="progressbar" aria-valuenow="75"
@@ -429,7 +430,8 @@ https://templatemo.com/tm-581-kind-heart-charity
                                 <div class="custom-block-body">
                                     <h5 class="mb-3">Poverty Development</h5>
 
-                                    <p>Sed leo nisl, posuere at molestie ac, suscipit auctor mauris. Etiam quis metus
+                                    <p>Sed leo nisl, posuere at molestie ac, suscipit auctor mauris. Etiam quis
+                                        metus
                                         tempor</p>
 
                                     <div class="progress mt-4">
@@ -464,7 +466,8 @@ https://templatemo.com/tm-581-kind-heart-charity
                                 <div class="custom-block-body">
                                     <h5 class="mb-3">Supply drinking water</h5>
 
-                                    <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                                    <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur
+                                        ridiculus
                                     </p>
 
                                     <div class="progress mt-4">
@@ -501,44 +504,45 @@ https://templatemo.com/tm-581-kind-heart-charity
                     <div class="col-lg-6 col-12">
                         <h2 class="text-white mb-4">Volunteer</h2>
 
-                        <f+orm class="custom-form volunteer-form mb-5 mb-lg-0" action="register_volunteers"
+                        <form class="custom-form volunteer-form mb-5 mb-lg-0" action="register_volunteers.php"
                             method="post" role="form">
                             <h3 class="mb-4">Become a volunteer today</h3>
 
                             <div class="row">
                                 <div class="col-lg-6 col-12">
-                                    <input type="text" name="volunteer-name" id="volunteer-name" class="form-control"
+                                    <input type="text" name="v_name" id="volunteer-name" class="form-control"
                                         placeholder="Jack Doe" required>
                                 </div>
 
                                 <div class="col-lg-6 col-12">
-                                    <input type="email" name="volunteer-email" id="volunteer-email"
+                                    <input type="email" name="volunteer_email" id="volunteer-email"
                                         pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Jackdoe@gmail.com"
                                         required>
                                 </div>
 
-                                <div class="col-lg-6 col-12">
-                                    <input type="text" name="volunteer-subject" id="volunteer-subject"
+                                <div class=" col-lg-6 col-12">
+                                    <input type="text" name="volunteer_subject" id="volunteer-subject"
                                         class="form-control" placeholder="Subject" required>
                                 </div>
 
-                                <div class="col-lg-6 col-12">
+                                <div class=" col-lg-6 col-12">
                                     <div class="input-group input-group-file">
-                                        <input type="file" name="volunteer-cv" class="form-control"
-                                            id="inputGroupFile02">
+                                        <!-- <input type="file" name="volunteer-cv" class="form-control"
+                                            id="inputGroupFile02"> -->
 
-                                        <label class="input-group-text" for="inputGroupFile02">Upload your CV</label>
+                                        <label class=" input-group-text" for="inputGroupFile02">Upload your
+                                            CV</label>
 
                                         <i class="bi-cloud-arrow-up ms-auto"></i>
                                     </div>
                                 </div>
                             </div>
 
-                            <textarea name="volunteer-message" rows="3" class="form-control" id="volunteer-message"
+                            <textarea name="volunteer_comment" rows="3" class="form-control" id="volunteer_message"
                                 placeholder="Comment (Optional)"></textarea>
 
-                            <button type="submit" class="form-control">Submit</button>
-                        </f+orm>
+                            <button type="submit" name="submit" class="form-control">Submit</button>
+                        </form>
                     </div>
 
                     <div class="col-lg-6 col-12">
@@ -548,7 +552,8 @@ https://templatemo.com/tm-581-kind-heart-charity
                         <div class="custom-block-body text-center">
                             <h4 class="text-white mt-lg-3 mb-lg-3">About Volunteering</h4>
 
-                            <p class="text-white">Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm
+                            <p class="text-white">Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg
+                                kohm
                                 tokito Professional charity theme based</p>
                         </div>
                     </div>
@@ -667,12 +672,14 @@ https://templatemo.com/tm-581-kind-heart-charity
                                 </div>
 
                                 <div class="news-block-title mb-2">
-                                    <h4><a href="news-detail.php" class="news-block-title-link">Food donation area</a>
+                                    <h4><a href="news-detail.php" class="news-block-title-link">Food donation
+                                            area</a>
                                     </h4>
                                 </div>
 
                                 <div class="news-block-body">
-                                    <p>Sed leo nisl, posuere at molestie ac, suscipit auctor mauris. Etiam quis metus
+                                    <p>Sed leo nisl, posuere at molestie ac, suscipit auctor mauris. Etiam quis
+                                        metus
                                         elementum, tempor risus vel, condimentum orci</p>
                                 </div>
                             </div>
@@ -700,7 +707,8 @@ https://templatemo.com/tm-581-kind-heart-charity
 
                             <div class="news-block-two-col-info">
                                 <div class="news-block-title mb-2">
-                                    <h6><a href="news-detail.php" class="news-block-title-link">Food donation area</a>
+                                    <h6><a href="news-detail.php" class="news-block-title-link">Food donation
+                                            area</a>
                                     </h6>
                                 </div>
 
@@ -723,7 +731,8 @@ https://templatemo.com/tm-581-kind-heart-charity
 
                             <div class="news-block-two-col-info">
                                 <div class="news-block-title mb-2">
-                                    <h6><a href="news-detail.php" class="news-block-title-link">Volunteering Clean</a>
+                                    <h6><a href="news-detail.php" class="news-block-title-link">Volunteering
+                                            Clean</a>
                                     </h6>
                                 </div>
 
@@ -826,7 +835,8 @@ https://templatemo.com/tm-581-kind-heart-charity
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <div class="carousel-caption">
-                                        <h4 class="carousel-title">Lorem Ipsum dolor sit amet, consectetur adipsicing
+                                        <h4 class="carousel-title">Lorem Ipsum dolor sit amet, consectetur
+                                            adipsicing
                                             kengan omeg kohm tokito charity theme</h4>
 
                                         <small class="carousel-name"><span class="carousel-name-title">Maria</span>,
@@ -836,7 +846,8 @@ https://templatemo.com/tm-581-kind-heart-charity
 
                                 <div class="carousel-item">
                                     <div class="carousel-caption">
-                                        <h4 class="carousel-title">Sed leo nisl, posuere at molestie ac, suscipit auctor
+                                        <h4 class="carousel-title">Sed leo nisl, posuere at molestie ac, suscipit
+                                            auctor
                                             mauris quis metus tempor orci</h4>
 
                                         <small class="carousel-name"><span class="carousel-name-title">Thomas</span>,
@@ -846,7 +857,8 @@ https://templatemo.com/tm-581-kind-heart-charity
 
                                 <div class="carousel-item">
                                     <div class="carousel-caption">
-                                        <h4 class="carousel-title">Lorem Ipsum dolor sit amet, consectetur adipsicing
+                                        <h4 class="carousel-title">Lorem Ipsum dolor sit amet, consectetur
+                                            adipsicing
                                             kengan omeg kohm tokito charity theme</h4>
 
                                         <small class="carousel-name"><span class="carousel-name-title">Jane</span>,
@@ -856,7 +868,8 @@ https://templatemo.com/tm-581-kind-heart-charity
 
                                 <div class="carousel-item">
                                     <div class="carousel-caption">
-                                        <h4 class="carousel-title">Sed leo nisl, posuere at molestie ac, suscipit auctor
+                                        <h4 class="carousel-title">Sed leo nisl, posuere at molestie ac, suscipit
+                                            auctor
                                             mauris quis metus tempor orci</h4>
 
                                         <small class="carousel-name"><span class="carousel-name-title">Bob</span>,
@@ -993,7 +1006,8 @@ https://templatemo.com/tm-581-kind-heart-charity
 
                         <li class="footer-menu-item"><a href="#" class="footer-menu-link">Causes</a></li>
 
-                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Become a volunteer</a></li>
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Become a volunteer</a>
+                        </li>
 
                         <li class="footer-menu-item"><a href="#" class="footer-menu-link">Partner with us</a></li>
                     </ul>
