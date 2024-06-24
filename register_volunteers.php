@@ -22,13 +22,13 @@ if (isset($_POST["submit"])) {
     }
 
 
-    //search if email already exist
+    // search if email already exist
 
-    // $sql_email = "SELECT * FROM VOLUNTEERS WHERE vemail ='$vemail'";
-    // $result = mysqli_query($DBcon, $sql_email);
-    // if (mysqli_num_rows($result) > 0) {
-    //     array_push($erros, "email already exist");
-    // }
+    $sql_email = "SELECT * FROM VOLUNTEERS WHERE email ='$vemail'";
+    $result = mysqli_query($DBcon, $sql_email);
+    if (mysqli_num_rows($result) > 0) {
+        array_push($erros, "email already exist");
+    }
 
     if (count($erros) > 0) {
         foreach ($erros as $error) {
