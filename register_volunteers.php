@@ -36,7 +36,6 @@ if (isset($_POST["submit"])) {
         }
 
     } else {
-        require_once "./connection/mysqli_connection.php";
         $sql = "INSERT INTO VOLUNTEERS(fullname, email, comments, vsubject) VALUES(?, ?, ?, ?)";
         $stmt = mysqli_stmt_init($DBcon);
         $prepare_stmt = mysqli_stmt_prepare($stmt, $sql);
@@ -45,8 +44,6 @@ if (isset($_POST["submit"])) {
             mysqli_stmt_bind_param($stmt, 'ssss', $vname, $vemail, $vcomment, $vsubject);
             mysqli_stmt_execute($stmt);
             echo "<script>alert('Registration successful')</script>";
-
-
         } else {
             echo "<script>alert('Registration Error')</script>";
         }

@@ -511,18 +511,17 @@ require_once "register_volunteers.php"
                             <div class="row">
                                 <div class="col-lg-6 col-12">
                                     <input type="text" name="v_name" id="volunteer-name" class="form-control"
-                                        placeholder="Jack Doe" required>
+                                        placeholder="Jack Doe">
                                 </div>
 
                                 <div class="col-lg-6 col-12">
                                     <input type="email" name="volunteer_email" id="volunteer-email"
-                                        pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Jackdoe@gmail.com"
-                                        required>
+                                        pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Jackdoe@gmail.com">
                                 </div>
 
                                 <div class=" col-lg-6 col-12">
                                     <input type="text" name="volunteer_subject" id="volunteer-subject"
-                                        class="form-control" placeholder="Subject" required>
+                                        class="form-control" placeholder="Subject">
                                 </div>
 
                                 <div class=" col-lg-6 col-12">
