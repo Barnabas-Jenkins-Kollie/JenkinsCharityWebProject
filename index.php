@@ -1,6 +1,7 @@
 <?php
-require_once "register_volunteers.php"
-    ?>
+require_once "register_volunteers.php";
+require_once "send_contact.php";
+?>
 <!doctype html>
 <html lang="en">
 
@@ -11,15 +12,16 @@ require_once "register_volunteers.php"
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kind Heart Charity</title>
+    <title>Jenkins Kind Heart Charity</title>
 
     <!-- CSS FILES -->
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <link href="css/bootstrap-icons.css" rel="stylesheet">
 
     <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
-    <script src="verify.js"></script>
+
 
 </head>
 
@@ -32,14 +34,14 @@ require_once "register_volunteers.php"
                 <div class="col-lg-8 col-12 d-flex flex-wrap">
                     <p class="d-flex me-4 mb-0">
                         <i class="bi-geo-alt me-2"></i>
-                        Akershusstranda 20, 0150 Oslo, Norway
+                        DUPORT-ROAD, PAYNESVILLE CITY, LIBERIA
                     </p>
 
                     <p class="d-flex mb-0">
                         <i class="bi-envelope me-2"></i>
 
-                        <a href="mailto:info@company.com">
-                            info@company.com
+                        <a href="info@jenkinskindheart.com">
+                            info@jenkinskindheart.com
                         </a>
                     </p>
                 </div>
@@ -77,7 +79,7 @@ require_once "register_volunteers.php"
             <a class="navbar-brand" href="index.php">
                 <img src="images/logo.png" class="logo img-fluid" alt="Kind Heart Charity">
                 <span>
-                    Kind Heart Charity
+                    Jenkins Kind Heart Charity
                     <small>Non-profit Organization</small>
                 </span>
             </a>
@@ -144,9 +146,9 @@ require_once "register_volunteers.php"
                                         class="carousel-image img-fluid" alt="...">
 
                                     <div class="carousel-caption d-flex flex-column justify-content-end">
-                                        <h3>Be a Kind Heart</h3>
+                                        <h1> Kind Heart is Light</h1>
 
-                                        <p>Professional charity theme based on Barnabas Jenkins envision</p>
+                                        <p>Join Barnabas Jenkins</p>
                                     </div>
                                 </div>
 
@@ -197,7 +199,7 @@ require_once "register_volunteers.php"
                 <div class="row">
 
                     <div class="col-lg-10 col-12 text-center mx-auto">
-                        <h2 class="mb-5">Welcome to Kind Heart Charity</h2>
+                        <h2 class="mb-5">Welcome to Jenkins Kind Heart Charity</h2>
                     </div>
 
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
@@ -257,13 +259,11 @@ require_once "register_volunteers.php"
                         <div class="custom-text-box">
                             <h2 class="mb-2">Our Story</h2>
 
-                            <h5 class="mb-3">Kind Heart Charity, Non-Profit Organization</h5>
+                            <h5 class="mb-3">Jenkins Kind Heart Charity, Non-Profit Organization</h5>
 
-                            <p class="mb-0">This is a Bootstrap 5.2.2 CSS template for charity organization
-                                websites.
-                                You can feel free to use it. Please tell your friends about TemplateMo website.
-                                Thank
-                                you.</p>
+                            <p class="mb-0">Jenkins Kind Heart Charity was establish in 2019 as a result of the fight
+                                we cannot hold inside to see lives of young people being wasted as a result of lost of
+                                parents or family.</p>
                         </div>
 
                         <div class="row">
@@ -271,17 +271,17 @@ require_once "register_volunteers.php"
                                 <div class="custom-text-box mb-lg-0">
                                     <h5 class="mb-3">Our Mission</h5>
 
-                                    <p>Sed leo nisl, posuere at molestie ac, suscipit auctor quis metus</p>
+                                    <p>To help people, transform community through sharing.</p>
 
                                     <ul class="custom-list mt-2">
                                         <li class="custom-list-item d-flex">
                                             <i class="bi-check custom-text-box-icon me-2"></i>
-                                            Charity Theme
+                                            Individual help
                                         </li>
 
                                         <li class="custom-list-item d-flex">
                                             <i class="bi-check custom-text-box-icon me-2"></i>
-                                            Semantic HTML
+                                            Community help
                                         </li>
                                     </ul>
                                 </div>
@@ -323,21 +323,21 @@ require_once "register_volunteers.php"
                 <div class="row">
 
                     <div class="col-lg-6 col-md-5 col-12">
-                        <img src="images/portrait-volunteer-who-organized-donations-charity.jpg"
-                            class="about-image ms-lg-auto bg-light shadow-lg img-fluid" alt="">
+                        <img src="images/founder.png" class="about-image ms-lg-auto bg-light shadow-lg img-fluid"
+                            alt="">
                     </div>
 
                     <div class="col-lg-5 col-md-7 col-12">
                         <div class="custom-text-block">
-                            <h2 class="mb-0">Sandy Chan</h2>
+                            <h2 class="mb-0">Jenkins Barnabas</h2>
 
-                            <p class="text-muted mb-lg-4 mb-md-4">Founding Partner</p>
+                            <h4 class="text-muted text-center mb-lg-4 mb-md-4">Founding Partner</h4>
 
-                            <p>Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito
-                                Professional
-                                charity theme based</p>
+                            <p>Waking up to see people lives are being transform is my greatest share of life join me
+                                if you are the same.</p>
 
-                            <p>Sed leo nisl, posuere at molestie ac, suscipit auctor mauris. Etiam quis metus</p>
+                            <p> If you blessed with abundant please don't be arrogant & self by wasting. Please know
+                                that others can also can happy you share.</p>
 
                             <ul class="social-icon mt-4">
                                 <li class="social-icon-item">
@@ -395,9 +395,8 @@ require_once "register_volunteers.php"
                                 <div class="custom-block-body">
                                     <h5 class="mb-3">Children Education</h5>
 
-                                    <p>Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito
-                                    </p>
-
+                                    <p>When our children are educated communication become easy. They are our hope fo
+                                        r tomorrow. Let's make it count</p>
                                     <div class="progress mt-4">
                                         <div class="progress-bar w-75" role="progressbar" aria-valuenow="75"
                                             aria-valuemin="0" aria-valuemax="100"></div>
@@ -506,6 +505,7 @@ require_once "register_volunteers.php"
 
                         <form class="custom-form volunteer-form mb-5 mb-lg-0" action="register_volunteers.php"
                             method="post" role="form">
+
                             <h3 class="mb-4">Become a volunteer today</h3>
 
                             <div class="row">
@@ -955,7 +955,7 @@ require_once "register_volunteers.php"
                     </div>
 
                     <div class="col-lg-5 col-12 mx-auto">
-                        <form class="custom-form contact-form" action="#" method="post" role="form">
+                        <form class="custom-form contact-form" action="send_contact.php" method="post" role="form">
                             <h2>Contact form</h2>
 
                             <p class="mb-4">Or, you can just send an email:
@@ -963,12 +963,12 @@ require_once "register_volunteers.php"
                             </p>
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-12">
-                                    <input type="text" name="first-name" id="first-name" class="form-control"
+                                    <input type="text" name="first_name" id="first-name" class="form-control"
                                         placeholder="Jack" required>
                                 </div>
 
                                 <div class="col-lg-6 col-md-6 col-12">
-                                    <input type="text" name="last-name" id="last-name" class="form-control"
+                                    <input type="text" name="last_name" id="last-name" class="form-control"
                                         placeholder="Doe" required>
                                 </div>
                             </div>
@@ -979,7 +979,7 @@ require_once "register_volunteers.php"
                             <textarea name="message" rows="5" class="form-control" id="message"
                                 placeholder="What can we help you?"></textarea>
 
-                            <button type="submit" class="form-control">Send Message</button>
+                            <button type="submit" name="submit" class="form-control">Send Message</button>
                         </form>
                     </div>
 
@@ -1027,13 +1027,13 @@ require_once "register_volunteers.php"
                         <i class="bi-envelope me-2"></i>
 
                         <a href="mailto:info@yourgmail.com" class="site-footer-link">
-                            donate@charity.org
+                            donate@jenkinscharity.org
                         </a>
                     </p>
 
                     <p class="text-white d-flex mt-3">
                         <i class="bi-geo-alt me-2"></i>
-                        Akershusstranda 20, 0150 Oslo, Norway
+                        DUPORT-ROAD, PAYNESVILLE CITY,LIBERIA
                     </p>
 
                     <a href="#" class="custom-btn btn mt-3">Get Direction</a>
@@ -1046,9 +1046,10 @@ require_once "register_volunteers.php"
                 <div class="row">
 
                     <div class="col-lg-6 col-md-7 col-12">
-                        <p class="copyright-text mb-0">Copyright © 2036 <a href="#">Kind Heart</a> Charity Org.
-                            Design: <a href="https://templatemo.com" target="_blank">TemplateMo</a><br>Distribution:
-                            <a href="https://themewagon.com">ThemeWagon</a>
+                        <p class="copyright-text mb-0">Copyright © 2024 <a href="#">Kind Heart</a> Jenkins Kind Heart
+                            Platform:
+                            <a href="#">Jenkins</a><br>Distribution:
+                            <a href="#">Jenkins Kind Heart Charity</a>
                         </p>
                     </div>
 

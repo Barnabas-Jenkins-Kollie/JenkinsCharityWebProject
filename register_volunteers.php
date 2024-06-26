@@ -32,7 +32,8 @@ if (isset($_POST["submit"])) {
 
     if (count($erros) > 0) {
         foreach ($erros as $error) {
-            echo $error;
+            echo "<script>alert('$error')</script>";
+            echo "<script>location.href='index.php'</script>";
         }
 
     } else {
@@ -44,6 +45,9 @@ if (isset($_POST["submit"])) {
             mysqli_stmt_bind_param($stmt, 'ssss', $vname, $vemail, $vcomment, $vsubject);
             mysqli_stmt_execute($stmt);
             echo "<script>alert('Registration successful')</script>";
+            echo "<script>location.href='index.php'</script>";
+
+
         } else {
             echo "<script>alert('Registration Error')</script>";
         }
