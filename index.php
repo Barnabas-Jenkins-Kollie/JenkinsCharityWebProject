@@ -148,7 +148,7 @@ require_once "send_contact.php";
                                     <div class="carousel-caption d-flex flex-column justify-content-end">
                                         <h1> Kind Heart is Light</h1>
 
-                                        <p>Join Barnabas Jenkins</p>
+                                        <h4>Join Barnabas Jenkins</h4>
                                     </div>
                                 </div>
 
@@ -395,8 +395,8 @@ require_once "send_contact.php";
                                 <div class="custom-block-body">
                                     <h5 class="mb-3">Children Education</h5>
 
-                                    <p>When our children are educated communication become easy. They are our hope fo
-                                        r tomorrow. Let's make it count</p>
+                                    <p>When our children are educated communication become easy. They are our hope for
+                                        tomorrow. <b> Let's make it count.</b></p>
                                     <div class="progress mt-4">
                                         <div class="progress-bar w-75" role="progressbar" aria-valuenow="75"
                                             aria-valuemin="0" aria-valuemax="100"></div>
@@ -428,10 +428,8 @@ require_once "send_contact.php";
                             <div class="custom-block">
                                 <div class="custom-block-body">
                                     <h5 class="mb-3">Poverty Development</h5>
-
-                                    <p>Sed leo nisl, posuere at molestie ac, suscipit auctor mauris. Etiam quis
-                                        metus
-                                        tempor</p>
+                                    <p>Poverty is a result of low education & mean community let's fight by sharing
+                                        & educating. <b>Let's make itcount.</b></p>
 
                                     <div class="progress mt-4">
                                         <div class="progress-bar w-50" role="progressbar" aria-valuenow="50"
@@ -465,8 +463,8 @@ require_once "send_contact.php";
                                 <div class="custom-block-body">
                                     <h5 class="mb-3">Supply drinking water</h5>
 
-                                    <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur
-                                        ridiculus
+                                    <p>What goes in your stomach determine how long & healthy you will live.
+                                        Provide safe & clean drinking water. <b>Let's make itcount.</b>
                                     </p>
 
                                     <div class="progress mt-4">
@@ -593,7 +591,7 @@ require_once "send_contact.php";
                                     <div class="news-block-date">
                                         <p>
                                             <i class="bi-calendar4 custom-icon me-1"></i>
-                                            October 12, 2036
+                                            October 12, 2023
                                         </p>
                                     </div>
 
@@ -651,7 +649,7 @@ require_once "send_contact.php";
                                     <div class="news-block-date">
                                         <p>
                                             <i class="bi-calendar4 custom-icon me-1"></i>
-                                            October 20, 2036
+                                            October 20, 2023
                                         </p>
                                     </div>
 
@@ -714,7 +712,7 @@ require_once "send_contact.php";
                                 <div class="news-block-date">
                                     <p>
                                         <i class="bi-calendar4 custom-icon me-1"></i>
-                                        October 16, 2036
+                                        October 16, 2023
                                     </p>
                                 </div>
                             </div>
@@ -738,7 +736,7 @@ require_once "send_contact.php";
                                 <div class="news-block-date">
                                     <p>
                                         <i class="bi-calendar4 custom-icon me-1"></i>
-                                        October 24, 2036
+                                        October 24, 2023
                                     </p>
                                 </div>
                             </div>
@@ -930,14 +928,14 @@ require_once "send_contact.php";
 
                                 <p class="d-flex mb-2">
                                     <i class="bi-geo-alt me-2"></i>
-                                    Akershusstranda 20, 0150 Oslo, Norway
+                                    DUPORT-ROAD, PAYNESVILLE CITY,
                                 </p>
 
                                 <p class="d-flex mb-2">
                                     <i class="bi-telephone me-2"></i>
 
                                     <a href="tel: 305-240-9671">
-                                        305-240-9671
+                                        +231 881 826 972 / +231 776 365 054
                                     </a>
                                 </p>
 
@@ -945,7 +943,7 @@ require_once "send_contact.php";
                                     <i class="bi-envelope me-2"></i>
 
                                     <a href="mailto:info@yourgmail.com">
-                                        donate@charity.org
+                                        donate@jenkinscharity.org
                                     </a>
                                 </p>
 
@@ -959,7 +957,7 @@ require_once "send_contact.php";
                             <h2>Contact form</h2>
 
                             <p class="mb-4">Or, you can just send an email:
-                                <a href="#">info@charity.org</a>
+                                <a href="#">info@jenkinscharity.org</a>
                             </p>
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-12">

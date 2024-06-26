@@ -32,7 +32,8 @@ if (isset($_POST["submit"])) {
 
     if (count($erros) > 0) {
         foreach ($erros as $error) {
-            echo "<div alert alert-danger>$error</div>";
+            echo "<script>alert('$error')</script>";
+
         }
 
     } else {
@@ -45,7 +46,7 @@ if (isset($_POST["submit"])) {
             mysqli_stmt_execute($stmt);
             echo "<script>alert('Message sent successfully')</script>";
         } else {
-            echo "<script>alert('Sytem busy try again')</scri>";
+            echo "<script>alert('Sytem busy try again')</script>";
         }
     }
 }
