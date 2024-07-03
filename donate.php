@@ -76,7 +76,7 @@ https://templatemo.com/tm-581-kind-heart-charity
 
     <nav class="navbar navbar-expand-lg bg-light shadow-lg">
         <div class="container">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="index.php">
                 <img src="images/logo.png" class="logo img-fluid" alt="">
                 <span>
                     Kind Heart Charity
@@ -92,39 +92,39 @@ https://templatemo.com/tm-581-kind-heart-charity
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="index.html#section_1">Home</a>
+                        <a class="nav-link click-scroll" href="index.php#section_1">Home</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="index.html#section_2">About</a>
+                        <a class="nav-link click-scroll" href="index.php#section_2">About</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="index.html#section_3">Causes</a>
+                        <a class="nav-link click-scroll" href="index.php#section_3">Causes</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="index.html#section_4">Volunteer</a>
+                        <a class="nav-link click-scroll" href="index.php#section_4">Volunteer</a>
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link click-scroll dropdown-toggle" href="index.html#section_5"
+                        <a class="nav-link click-scroll dropdown-toggle" href="index.php#section_5"
                             id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">News</a>
 
                         <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                            <li><a class="dropdown-item" href="news.html">News Listing</a></li>
+                            <li><a class="dropdown-item" href="news.php">News Listing</a></li>
 
-                            <li><a class="dropdown-item" href="news-detail.html">News Detail</a></li>
+                            <li><a class="dropdown-item" href="news-detail.php">News Detail</a></li>
                         </ul>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="index.html#section_6">Contact</a>
+                        <a class="nav-link click-scroll" href="index.php#section_6">Contact</a>
                     </li>
 
                     <li class="nav-item ms-3">
-                        <a class="nav-link custom-btn custom-border-btn btn" href="donate.html">Donate</a>
+                        <a class="nav-link custom-btn custom-border-btn btn" href="donate.php">Donate</a>
                     </li>
                 </ul>
             </div>

@@ -8,17 +8,14 @@ require_once "./connection/mysqli_connection.php";
 //registering the user into database
 
 if (isset($_POST["submit"])) {
-    $fname = ($_POST["first_name"]);
-    $lname = ($_POST["last_name"]);
-    $email = ($_POST["email"]);
-    $message = ($_POST["message"]);
+    $email = ($_POST["subscribe_email"]);
     $erros = array();
 
 
     $url = 'index.php';
 
-    if (empty($fname) || empty($email) || empty($lname) || empty($message)) {
-        array_push($erros, "all fields are empty. ");
+    if (empty($email)) {
+        array_push($erros, "field is empty. ");
     }
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         array_push($erros, "invalid email. ");
@@ -27,7 +24,7 @@ if (isset($_POST["submit"])) {
 
     // search if email already exist
 
-    $sql_email = "SELECT * FROM CONTACT WHERE email ='$email'";
+    $sql_email = "SELECT * FROM SUBSCRIBER WHERE email ='$email'";
     $result = mysqli_query($DBcon, $sql_email);
     if (mysqli_num_rows($result) > 0) {
         array_push($erros, "email already exist");
@@ -41,14 +38,14 @@ if (isset($_POST["submit"])) {
         }
 
     } else {
-        $sql = "INSERT INTO CONTACT(fname, lname, email, message) VALUES(?, ?, ?, ?)";
+        $sql = "INSERT INTO SUBSCRIBER(email ) VALUES( ?)";
         $stmt = mysqli_stmt_init($DBcon);
         $prepare_stmt = mysqli_stmt_prepare($stmt, $sql);
 
         if ($prepare_stmt) {
-            mysqli_stmt_bind_param($stmt, 'ssss', $fname, $lname, $email, $message);
+            mysqli_stmt_bind_param($stmt, 's', $email);
             mysqli_stmt_execute($stmt);
-            echo "<script>alert('Message sent successfully')</script>";
+            echo "<script>alert('Thanks for Subscribing.')</script>";
         } else {
             echo "<script>alert('Sytem busy try again')</script>";
         }

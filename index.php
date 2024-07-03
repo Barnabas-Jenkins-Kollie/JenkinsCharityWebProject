@@ -1,6 +1,7 @@
 <?php
 require_once "register_volunteers.php";
 require_once "send_contact.php";
+require_once "subscribe.php";
 ?>
 <!doctype html>
 <html lang="en">
@@ -291,7 +292,7 @@ require_once "send_contact.php";
                                 <div class="custom-text-box d-flex flex-wrap d-lg-block mb-lg-0">
                                     <div class="counter-thumb">
                                         <div class="d-flex">
-                                            <span class="counter-number" data-from="1" data-to="2009"
+                                            <span class="counter-number" data-from="1" data-to="2019"
                                                 data-speed="1000"></span>
                                             <span class="counter-number-text"></span>
                                         </div>
@@ -803,14 +804,14 @@ require_once "send_contact.php";
                             </a>
                         </div>
 
-                        <form class="custom-form subscribe-form" action="#" method="post" role="form">
+                        <form class="custom-form subscribe-form" action="subscribe.php" method="post" role="form">
                             <h5 class="mb-4">Newsletter Form</h5>
 
-                            <input type="email" name="subscribe-email" id="subscribe-email" pattern="[^ @]*@[^ @]*"
+                            <input type="email" name="subscribe_email" id="subscribe-email" pattern="[^ @]*@[^ @]*"
                                 class="form-control" placeholder="Email Address" required>
 
                             <div class="col-lg-12 col-12">
-                                <button type="submit" class="form-control">Subscribe</button>
+                                <button type="submit" name="submit" class="form-control">Subscribe</button>
                             </div>
                         </form>
                     </div>
